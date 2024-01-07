@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849D4B0B2B42A74E00E0E00B /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D4B0A2B42A74E00E0E00B /* DietView.swift */; };
+		84A0C1A92B44377B00B6BA97 /* FoodInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C1A82B44377B00B6BA97 /* FoodInputView.swift */; };
+		84A0C1AB2B44429000B6BA97 /* DietTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0C1AA2B44429000B6BA97 /* DietTrackingView.swift */; };
+		84A806672B441C43000CEE01 /* DietLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A806662B441C43000CEE01 /* DietLevelView.swift */; };
+		84AB59362B4674AA0002A025 /* Routeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB59352B4674AA0002A025 /* Routeview.swift */; };
+		84ABAB3C2B4468E900C45BD6 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAB3B2B4468E900C45BD6 /* NutritionView.swift */; };
+		84ABAB3E2B4473C800C45BD6 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAB3D2B4473C800C45BD6 /* FeedbackView.swift */; };
+		84B45FB02B3D73A6004D310F /* DialysisPlusNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FAF2B3D73A6004D310F /* DialysisPlusNewApp.swift */; };
+		84B45FB22B3D73A6004D310F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FB12B3D73A6004D310F /* ContentView.swift */; };
+		84B45FB42B3D73A7004D310F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B45FB32B3D73A7004D310F /* Assets.xcassets */; };
+		84B45FB72B3D73A7004D310F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B45FB62B3D73A7004D310F /* Preview Assets.xcassets */; };
+		84B45FC12B3D73A7004D310F /* DialysisPlusNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FC02B3D73A7004D310F /* DialysisPlusNewTests.swift */; };
+		84B45FCB2B3D73A7004D310F /* DialysisPlusNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FCA2B3D73A7004D310F /* DialysisPlusNewUITests.swift */; };
+		84B45FCD2B3D73A7004D310F /* DialysisPlusNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FCC2B3D73A7004D310F /* DialysisPlusNewUITestsLaunchTests.swift */; };
+		84B45FDA2B3D742C004D310F /* Pastappview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45FD92B3D742C004D310F /* Pastappview.swift */; };
+		84B8B3EB2B431C2700C0846A /* DrinkLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8B3EA2B431C2700C0846A /* DrinkLogView.swift */; };
+		84B922872B455694009A1171 /* SearchCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B922862B455694009A1171 /* SearchCenterView.swift */; };
+		84BBB6132B4A8C270093D59E /* Calendarview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBB6122B4A8C270093D59E /* Calendarview.swift */; };
+		84C3CAA62B43D96F00A88CB5 /* Remainderview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CAA52B43D96F00A88CB5 /* Remainderview.swift */; };
+		84C3CAA82B43E35D00A88CB5 /* FluidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CAA72B43E35D00A88CB5 /* FluidView.swift */; };
+		84C9B5B32B49B5C2007C195A /* FilterIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9B5B22B49B5C2007C195A /* FilterIcon.swift */; };
+		84CFDEB22B3FE11500EA89E7 /* NewAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEB12B3FE11500EA89E7 /* NewAppView.swift */; };
+		84CFDEB42B3FE16E00EA89E7 /* PreviousAppoinmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEB32B3FE16E00EA89E7 /* PreviousAppoinmentView.swift */; };
+		84CFDEB62B3FE2D500EA89E7 /* UpcomingAppoinmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEB52B3FE2D500EA89E7 /* UpcomingAppoinmentView.swift */; };
+		84CFDEB82B3FE35700EA89E7 /* DailyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEB72B3FE35700EA89E7 /* DailyGoalsView.swift */; };
+		84CFDEBC2B3FEAC300EA89E7 /* FluidIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEBB2B3FEAC300EA89E7 /* FluidIntakeView.swift */; };
+		84CFDEBE2B3FF0D500EA89E7 /* SleepTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEBD2B3FF0D500EA89E7 /* SleepTrackerView.swift */; };
+		84CFDEC02B40059100EA89E7 /* FluidTrakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFDEBF2B40059100EA89E7 /* FluidTrakerView.swift */; };
+		84D7F3322B445F0E0037F3D0 /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F3312B445F0E0037F3D0 /* AddMealView.swift */; };
+		84D7F3342B4460A60037F3D0 /* ConfirmMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F3332B4460A60037F3D0 /* ConfirmMealView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B45FBD2B3D73A7004D310F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B45FA42B3D73A6004D310F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B45FAB2B3D73A6004D310F;
+			remoteInfo = DialysisPlusNew;
+		};
+		84B45FC72B3D73A7004D310F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B45FA42B3D73A6004D310F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B45FAB2B3D73A6004D310F;
+			remoteInfo = DialysisPlusNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849D4B0A2B42A74E00E0E00B /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		84A0C1A82B44377B00B6BA97 /* FoodInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInputView.swift; sourceTree = "<group>"; };
+		84A0C1AA2B44429000B6BA97 /* DietTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackingView.swift; sourceTree = "<group>"; };
+		84A806662B441C43000CEE01 /* DietLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietLevelView.swift; sourceTree = "<group>"; };
+		84AB59352B4674AA0002A025 /* Routeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routeview.swift; sourceTree = "<group>"; };
+		84ABAB3B2B4468E900C45BD6 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		84ABAB3D2B4473C800C45BD6 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		84B45FAC2B3D73A6004D310F /* DialysisPlusNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialysisPlusNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45FAF2B3D73A6004D310F /* DialysisPlusNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisPlusNewApp.swift; sourceTree = "<group>"; };
+		84B45FB12B3D73A6004D310F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84B45FB32B3D73A7004D310F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B45FB62B3D73A7004D310F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B45FBC2B3D73A7004D310F /* DialysisPlusNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialysisPlusNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45FC02B3D73A7004D310F /* DialysisPlusNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisPlusNewTests.swift; sourceTree = "<group>"; };
+		84B45FC62B3D73A7004D310F /* DialysisPlusNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialysisPlusNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45FCA2B3D73A7004D310F /* DialysisPlusNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisPlusNewUITests.swift; sourceTree = "<group>"; };
+		84B45FCC2B3D73A7004D310F /* DialysisPlusNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisPlusNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B45FD92B3D742C004D310F /* Pastappview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pastappview.swift; sourceTree = "<group>"; };
+		84B8B3EA2B431C2700C0846A /* DrinkLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLogView.swift; sourceTree = "<group>"; };
+		84B922862B455694009A1171 /* SearchCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCenterView.swift; sourceTree = "<group>"; };
+		84BBB6122B4A8C270093D59E /* Calendarview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendarview.swift; sourceTree = "<group>"; };
+		84C3CAA52B43D96F00A88CB5 /* Remainderview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remainderview.swift; sourceTree = "<group>"; };
+		84C3CAA72B43E35D00A88CB5 /* FluidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidView.swift; sourceTree = "<group>"; };
+		84C9B5B22B49B5C2007C195A /* FilterIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterIcon.swift; sourceTree = "<group>"; };
+		84CFDEB12B3FE11500EA89E7 /* NewAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppView.swift; sourceTree = "<group>"; };
+		84CFDEB32B3FE16E00EA89E7 /* PreviousAppoinmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousAppoinmentView.swift; sourceTree = "<group>"; };
+		84CFDEB52B3FE2D500EA89E7 /* UpcomingAppoinmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingAppoinmentView.swift; sourceTree = "<group>"; };
+		84CFDEB72B3FE35700EA89E7 /* DailyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsView.swift; sourceTree = "<group>"; };
+		84CFDEBB2B3FEAC300EA89E7 /* FluidIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidIntakeView.swift; sourceTree = "<group>"; };
+		84CFDEBD2B3FF0D500EA89E7 /* SleepTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerView.swift; sourceTree = "<group>"; };
+		84CFDEBF2B40059100EA89E7 /* FluidTrakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidTrakerView.swift; sourceTree = "<group>"; };
+		84D7F3312B445F0E0037F3D0 /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
+		84D7F3332B4460A60037F3D0 /* ConfirmMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmMealView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B45FA92B3D73A6004D310F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FB92B3D73A7004D310F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FC32B3D73A7004D310F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B45FA32B3D73A6004D310F = {
+			isa = PBXGroup;
+			children = (
+				84B45FAE2B3D73A6004D310F /* DialysisPlusNew */,
+				84B45FBF2B3D73A7004D310F /* DialysisPlusNewTests */,
+				84B45FC92B3D73A7004D310F /* DialysisPlusNewUITests */,
+				84B45FAD2B3D73A6004D310F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B45FAD2B3D73A6004D310F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B45FAC2B3D73A6004D310F /* DialysisPlusNew.app */,
+				84B45FBC2B3D73A7004D310F /* DialysisPlusNewTests.xctest */,
+				84B45FC62B3D73A7004D310F /* DialysisPlusNewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B45FAE2B3D73A6004D310F /* DialysisPlusNew */ = {
+			isa = PBXGroup;
+			children = (
+				84B45FB12B3D73A6004D310F /* ContentView.swift */,
+				84C3CAA72B43E35D00A88CB5 /* FluidView.swift */,
+				849D4B0A2B42A74E00E0E00B /* DietView.swift */,
+				84D7F3312B445F0E0037F3D0 /* AddMealView.swift */,
+				84D7F3332B4460A60037F3D0 /* ConfirmMealView.swift */,
+				84A0C1A82B44377B00B6BA97 /* FoodInputView.swift */,
+				84A0C1AA2B44429000B6BA97 /* DietTrackingView.swift */,
+				84CFDEB32B3FE16E00EA89E7 /* PreviousAppoinmentView.swift */,
+				84CFDEB52B3FE2D500EA89E7 /* UpcomingAppoinmentView.swift */,
+				84ABAB3B2B4468E900C45BD6 /* NutritionView.swift */,
+				84B922862B455694009A1171 /* SearchCenterView.swift */,
+				84ABAB3D2B4473C800C45BD6 /* FeedbackView.swift */,
+				84BBB6122B4A8C270093D59E /* Calendarview.swift */,
+				84A806662B441C43000CEE01 /* DietLevelView.swift */,
+				84AB59352B4674AA0002A025 /* Routeview.swift */,
+				84B45FAF2B3D73A6004D310F /* DialysisPlusNewApp.swift */,
+				84B45FD92B3D742C004D310F /* Pastappview.swift */,
+				84CFDEB12B3FE11500EA89E7 /* NewAppView.swift */,
+				84C9B5B22B49B5C2007C195A /* FilterIcon.swift */,
+				84CFDEB72B3FE35700EA89E7 /* DailyGoalsView.swift */,
+				84B8B3EA2B431C2700C0846A /* DrinkLogView.swift */,
+				84C3CAA52B43D96F00A88CB5 /* Remainderview.swift */,
+				84CFDEBB2B3FEAC300EA89E7 /* FluidIntakeView.swift */,
+				84CFDEBD2B3FF0D500EA89E7 /* SleepTrackerView.swift */,
+				84CFDEBF2B40059100EA89E7 /* FluidTrakerView.swift */,
+				84B45FB32B3D73A7004D310F /* Assets.xcassets */,
+				84B45FB52B3D73A7004D310F /* Preview Content */,
+			);
+			path = DialysisPlusNew;
+			sourceTree = "<group>";
+		};
+		84B45FB52B3D73A7004D310F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B45FB62B3D73A7004D310F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B45FBF2B3D73A7004D310F /* DialysisPlusNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B45FC02B3D73A7004D310F /* DialysisPlusNewTests.swift */,
+			);
+			path = DialysisPlusNewTests;
+			sourceTree = "<group>";
+		};
+		84B45FC92B3D73A7004D310F /* DialysisPlusNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B45FCA2B3D73A7004D310F /* DialysisPlusNewUITests.swift */,
+				84B45FCC2B3D73A7004D310F /* DialysisPlusNewUITestsLaunchTests.swift */,
+			);
+			path = DialysisPlusNewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B45FAB2B3D73A6004D310F /* DialysisPlusNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45FD02B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNew" */;
+			buildPhases = (
+				84B45FA82B3D73A6004D310F /* Sources */,
+				84B45FA92B3D73A6004D310F /* Frameworks */,
+				84B45FAA2B3D73A6004D310F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialysisPlusNew;
+			productName = DialysisPlusNew;
+			productReference = 84B45FAC2B3D73A6004D310F /* DialysisPlusNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B45FBB2B3D73A7004D310F /* DialysisPlusNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45FD32B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNewTests" */;
+			buildPhases = (
+				84B45FB82B3D73A7004D310F /* Sources */,
+				84B45FB92B3D73A7004D310F /* Frameworks */,
+				84B45FBA2B3D73A7004D310F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B45FBE2B3D73A7004D310F /* PBXTargetDependency */,
+			);
+			name = DialysisPlusNewTests;
+			productName = DialysisPlusNewTests;
+			productReference = 84B45FBC2B3D73A7004D310F /* DialysisPlusNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B45FC52B3D73A7004D310F /* DialysisPlusNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45FD62B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNewUITests" */;
+			buildPhases = (
+				84B45FC22B3D73A7004D310F /* Sources */,
+				84B45FC32B3D73A7004D310F /* Frameworks */,
+				84B45FC42B3D73A7004D310F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B45FC82B3D73A7004D310F /* PBXTargetDependency */,
+			);
+			name = DialysisPlusNewUITests;
+			productName = DialysisPlusNewUITests;
+			productReference = 84B45FC62B3D73A7004D310F /* DialysisPlusNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B45FA42B3D73A6004D310F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					84B45FAB2B3D73A6004D310F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					84B45FBB2B3D73A7004D310F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 84B45FAB2B3D73A6004D310F;
+					};
+					84B45FC52B3D73A7004D310F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 84B45FAB2B3D73A6004D310F;
+					};
+				};
+			};
+			buildConfigurationList = 84B45FA72B3D73A6004D310F /* Build configuration list for PBXProject "DialysisPlusNew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B45FA32B3D73A6004D310F;
+			productRefGroup = 84B45FAD2B3D73A6004D310F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B45FAB2B3D73A6004D310F /* DialysisPlusNew */,
+				84B45FBB2B3D73A7004D310F /* DialysisPlusNewTests */,
+				84B45FC52B3D73A7004D310F /* DialysisPlusNewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B45FAA2B3D73A6004D310F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45FB72B3D73A7004D310F /* Preview Assets.xcassets in Resources */,
+				84B45FB42B3D73A7004D310F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FBA2B3D73A7004D310F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FC42B3D73A7004D310F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B45FA82B3D73A6004D310F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A806672B441C43000CEE01 /* DietLevelView.swift in Sources */,
+				84A0C1A92B44377B00B6BA97 /* FoodInputView.swift in Sources */,
+				84B45FDA2B3D742C004D310F /* Pastappview.swift in Sources */,
+				84CFDEB42B3FE16E00EA89E7 /* PreviousAppoinmentView.swift in Sources */,
+				84CFDEB22B3FE11500EA89E7 /* NewAppView.swift in Sources */,
+				84B45FB22B3D73A6004D310F /* ContentView.swift in Sources */,
+				84BBB6132B4A8C270093D59E /* Calendarview.swift in Sources */,
+				84B45FB02B3D73A6004D310F /* DialysisPlusNewApp.swift in Sources */,
+				84CFDEBE2B3FF0D500EA89E7 /* SleepTrackerView.swift in Sources */,
+				849D4B0B2B42A74E00E0E00B /* DietView.swift in Sources */,
+				84B922872B455694009A1171 /* SearchCenterView.swift in Sources */,
+				84ABAB3C2B4468E900C45BD6 /* NutritionView.swift in Sources */,
+				84CFDEB82B3FE35700EA89E7 /* DailyGoalsView.swift in Sources */,
+				84C3CAA82B43E35D00A88CB5 /* FluidView.swift in Sources */,
+				84CFDEBC2B3FEAC300EA89E7 /* FluidIntakeView.swift in Sources */,
+				84CFDEC02B40059100EA89E7 /* FluidTrakerView.swift in Sources */,
+				84AB59362B4674AA0002A025 /* Routeview.swift in Sources */,
+				84ABAB3E2B4473C800C45BD6 /* FeedbackView.swift in Sources */,
+				84B8B3EB2B431C2700C0846A /* DrinkLogView.swift in Sources */,
+				84C9B5B32B49B5C2007C195A /* FilterIcon.swift in Sources */,
+				84A0C1AB2B44429000B6BA97 /* DietTrackingView.swift in Sources */,
+				84D7F3322B445F0E0037F3D0 /* AddMealView.swift in Sources */,
+				84CFDEB62B3FE2D500EA89E7 /* UpcomingAppoinmentView.swift in Sources */,
+				84C3CAA62B43D96F00A88CB5 /* Remainderview.swift in Sources */,
+				84D7F3342B4460A60037F3D0 /* ConfirmMealView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FB82B3D73A7004D310F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45FC12B3D73A7004D310F /* DialysisPlusNewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45FC22B3D73A7004D310F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45FCB2B3D73A7004D310F /* DialysisPlusNewUITests.swift in Sources */,
+				84B45FCD2B3D73A7004D310F /* DialysisPlusNewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B45FBE2B3D73A7004D310F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B45FAB2B3D73A6004D310F /* DialysisPlusNew */;
+			targetProxy = 84B45FBD2B3D73A7004D310F /* PBXContainerItemProxy */;
+		};
+		84B45FC82B3D73A7004D310F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B45FAB2B3D73A6004D310F /* DialysisPlusNew */;
+			targetProxy = 84B45FC72B3D73A7004D310F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B45FCE2B3D73A7004D310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B45FCF2B3D73A7004D310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B45FD12B3D73A7004D310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialysisPlusNew/Preview Content\"";
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B45FD22B3D73A7004D310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialysisPlusNew/Preview Content\"";
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B45FD42B3D73A7004D310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialysisPlusNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DialysisPlusNew";
+			};
+			name = Debug;
+		};
+		84B45FD52B3D73A7004D310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialysisPlusNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DialysisPlusNew";
+			};
+			name = Release;
+		};
+		84B45FD72B3D73A7004D310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DialysisPlusNew;
+			};
+			name = Debug;
+		};
+		84B45FD82B3D73A7004D310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD834L6BHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.DialysisPlusNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DialysisPlusNew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B45FA72B3D73A6004D310F /* Build configuration list for PBXProject "DialysisPlusNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45FCE2B3D73A7004D310F /* Debug */,
+				84B45FCF2B3D73A7004D310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45FD02B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45FD12B3D73A7004D310F /* Debug */,
+				84B45FD22B3D73A7004D310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45FD32B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45FD42B3D73A7004D310F /* Debug */,
+				84B45FD52B3D73A7004D310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45FD62B3D73A7004D310F /* Build configuration list for PBXNativeTarget "DialysisPlusNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45FD72B3D73A7004D310F /* Debug */,
+				84B45FD82B3D73A7004D310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B45FA42B3D73A6004D310F /* Project object */;
+}
